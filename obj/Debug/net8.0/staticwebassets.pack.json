@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Marcos De Vargas\\Desktop\\UTECO\\DevManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DevManager.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DevManager.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Marcos De Vargas\\Desktop\\UTECO\\DevManager\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Marcos De Vargas\\Desktop\\UTECO\\DevManager\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marcos De Vargas\\Desktop\\UTECO\\DevManager\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marcos De Vargas\\Desktop\\UTECO\\DevManager\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DevManager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DevManager.props",
+      "PackagePath": "build\\DevManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DevManager.props",
+      "PackagePath": "buildMultiTargeting\\DevManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DevManager.props",
+      "PackagePath": "buildTransitive\\DevManager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
