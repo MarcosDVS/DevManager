@@ -194,7 +194,6 @@
         {
             // Extrae los valores de los reclamos y asigna las propiedades
             Role = user.FindFirst(ClaimTypes.Role)?.Value ?? "";
-            UserName = user.FindFirst(ClaimTypes.GivenName)?.Value ?? "";
             UserId = user.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "";
         }
     }

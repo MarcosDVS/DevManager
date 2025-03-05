@@ -184,7 +184,7 @@
             Role = user.FindFirst(ClaimTypes.Role)?.Value ?? "";
         }
     }
-
+    
     async Task CargarInfo()
     {
         var resultado = await tareaServices.Consultar(Filtro);

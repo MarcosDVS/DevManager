@@ -132,7 +132,7 @@
         </div>
     </div>
 
-    @if (Tareas.Count != 0 )
+    @if (Tareas.Count != 0)
     {
         <table class="table table-striped">
             <thead class="bg-primary text-black fw-bold">
@@ -147,6 +147,11 @@
             <tbody>
                 @foreach (var item in Tareas)
                 {
+                    @if(Role=="Desarrollador" && item.AssignedTo.ToString() != UserId)
+                    {
+                        continue;
+
+                    }
                     <tr>
                         <td>@item.TaskName</td>
                         <td>@item.Status</td>

@@ -146,3 +146,4 @@ C:\Users\Marcos De Vargas\Desktop\UTECO\DevManager\obj\Debug\net8.0\refint\DevMa
 C:\Users\Marcos De Vargas\Desktop\UTECO\DevManager\obj\Debug\net8.0\DevManager.pdb
 C:\Users\Marcos De Vargas\Desktop\UTECO\DevManager\obj\Debug\net8.0\DevManager.genruntimeconfig.cache
 C:\Users\Marcos De Vargas\Desktop\UTECO\DevManager\obj\Debug\net8.0\ref\DevManager.dll
+C:\Users\Marcos De Vargas\Desktop\UTECO\DevManager\obj\Debug\net8.0\DevManager.sourcelink.json

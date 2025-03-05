@@ -87,7 +87,7 @@ public class TareaServices : ITareaServices
         {
             var items = await _database.Tareas
                 .Where(u => string.IsNullOrWhiteSpace(filtro) || 
-                            (u.TaskName + " " + u.Description).ToLowerInvariant().Contains(filtro.ToLowerInvariant()))
+                            (u.TaskName + " " + u.Description + " " + u.Status).ToLowerInvariant().Contains(filtro.ToLowerInvariant()))
                 .Include(f => f.Project)
                 .OrderBy(u => u.Project.ProjectName)
                 .ToListAsync();
